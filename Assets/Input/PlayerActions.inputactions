@@ -4,12 +4,12 @@
     "maps": [
         {
             "name": "Player",
-            "id": "3b7638c6-c2c8-4198-a5b9-0e3a6f8b2266",
+            "id": "008ac20d-fd49-439e-80bf-58c675576f7b",
             "actions": [
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "6dfa39a3-da2a-4e7f-bfce-9dc6be8d71d9",
+                    "id": "3dfe5c7c-3625-40c0-b8fb-4c0c83dadbbc",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +18,7 @@
                 {
                     "name": "Look",
                     "type": "Value",
-                    "id": "56d2111a-a884-4c31-8870-82afbfa5be39",
+                    "id": "4fd1dec8-f082-4e10-b741-b6982df8991b",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "dd5fec74-41d5-470f-94d5-9c33be91fe2b",
+                    "id": "6ccc4efa-1adb-4310-903d-6c361194f29e",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
