@@ -1,20 +1,16 @@
 using UnityEngine;
 
-public class Example : MonoBehaviour
+public class NewMonoBehaviourScript : MonoBehaviour
 {
-    public string message;
-    private int counter = 1;
-    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        print(message + " Ca roule?");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(counter);
-        counter += 1;
+        
     }
 }
