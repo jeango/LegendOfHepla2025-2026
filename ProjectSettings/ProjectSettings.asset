@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 2f480a4d6a6b74341b33a528a4bfadd7
+  productGUID: 6d384a500a81d4ab689bcf6c8b29872f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Legend of Hepla - 101-104
+  productName: Legend of Hepla
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -511,7 +511,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: g2C4PlXl1kHPQN5DJGZ2HDXVi6ePuxTH
+  ps4Passcode: mT3qj41JsF9E28bZz8KZLlkiU29TIhcU
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -600,14 +600,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Legend of Hepla - 101-104
+  metroPackageName: Legend of Hepla
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Legend of Hepla - 101-104
+  metroApplicationDescription: Legend of Hepla
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -678,10 +678,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: d22cd0e4-e9f4-45d3-96f0-b4f571b19a1b
+  cloudProjectId: beca6fc8-0d60-4bf3-a5c9-9a7db9872e90
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Legend of Hepla - 101-104
+  projectName: Legend of Hepla
   organizationId: hepl_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
