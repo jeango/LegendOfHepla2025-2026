@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class Example : MonoBehaviour
 {
-    public string personWeAreTalkingTo;
-    private int counter;
+    public string message;
+    private float counter;
     
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        print(message);
         counter = 1;
-        print("Hello " + personWeAreTalkingTo + "! My name is " + gameObject.name);
     }
 
     // Update is called once per frame
