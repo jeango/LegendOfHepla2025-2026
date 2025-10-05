@@ -7,7 +7,6 @@ public class Example : MonoBehaviour
     
     void Start()
     {
-        //Huhuhuhu!
         counter = 1;
         print("Hello " + personWeAreTalkingTo + "! My name is " + gameObject.name);
     }
