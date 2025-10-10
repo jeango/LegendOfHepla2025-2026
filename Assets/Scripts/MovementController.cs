@@ -1,15 +1,16 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
     public Vector3 movementDirection;
     public float speed;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
+    public void SetDirectionFromInput(InputAction.CallbackContext context)
+    {
+        movementDirection = context.ReadValue<Vector2>();
+    }
+    
     // Update is called once per frame
     void Update()
     {
