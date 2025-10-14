@@ -530,16 +530,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a625ad4d83a45810800000000000000
+      spriteID: 557c6d180d3ec4b488972849f83cf4c4
       internalID: 1753205982242350755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_1
+      name: circle_1
       rect:
         serializedVersion: 2
         x: 295
@@ -554,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4357bfe28a6574bbf9d2b5a8ca2af823
-      internalID: 318953615281452700
+      spriteID: c2b5a7a91dcbf45c58a83d026ec4a89c
+      internalID: -47942022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_2
+      name: circle_2
       rect:
         serializedVersion: 2
         x: 327
@@ -576,14 +576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d798e07f15544728f59a3d527e3784
-      internalID: 8333231276030249781
+      spriteID: 11dad93b2035f44e08769290d0ef5041
+      internalID: -604658374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_3
+      name: circle_3
       rect:
         serializedVersion: 2
         x: 359
@@ -598,14 +598,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b110ef2a0e5a42f39b5946b9d4bada8
-      internalID: -4430392651179603617
+      spriteID: 2a618f9a973074ba5a62a16109f8c695
+      internalID: -1117751606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_4
+      name: circle_4
       rect:
         serializedVersion: 2
         x: 391
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80e42dab37e91407a8fcbd0b87fe447b
-      internalID: 2654447934904345190
+      spriteID: 4b065656aeee243ee8539fdfdf22815f
+      internalID: 958816101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_5
+      name: circle_5
       rect:
         serializedVersion: 2
         x: 423
@@ -642,14 +642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979e6f59bab1a4a03856ecc6bd39842f
-      internalID: -3276687688264177478
+      spriteID: 7897438fbafb24cb78509bdf3003f6ba
+      internalID: 426272712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_6
+      name: circle_6
       rect:
         serializedVersion: 2
         x: 455
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c849a63b69d64275aaaa4bc29fda79d
-      internalID: 5069650035751226587
+      spriteID: fdec8f9f992e64206a11982b20a85b83
+      internalID: 1215772438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_7
+      name: circle_7
       rect:
         serializedVersion: 2
         x: 487
@@ -686,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1998dadeef704940816b1361e076de8
-      internalID: -9053378900703536071
+      spriteID: 67217d2ace81e4d6eb1e64c45f958f22
+      internalID: 1721677233
       vertices: []
       indices: 
       edges: []
@@ -709,13 +709,13 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":528.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       circle_0: 1753205982242350755
-      objects_1: 318953615281452700
-      objects_2: 8333231276030249781
-      objects_3: -4430392651179603617
-      objects_4: 2654447934904345190
-      objects_5: -3276687688264177478
-      objects_6: 5069650035751226587
-      objects_7: -9053378900703536071
+      circle_1: -47942022
+      circle_2: -604658374
+      circle_3: -1117751606
+      circle_4: 958816101
+      circle_5: 426272712
+      circle_6: 1215772438
+      circle_7: 1721677233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
