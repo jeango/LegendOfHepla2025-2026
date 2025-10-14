@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2992808796980940171}
   - component: {fileID: 7441563744947973619}
   - component: {fileID: 7698041319686598095}
+  - component: {fileID: 3738900463384635540}
   m_Layer: 0
   m_Name: Zynk
   m_TagString: Untagged
@@ -177,7 +178,19 @@ MonoBehaviour:
     m_ActionId: 74ea2649-4a10-4c18-87d4-6aa7f2f31e4c
     m_ActionName: 'Player/Look[/Mouse/delta,/Pen/delta]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3738900463384635540}
+        m_TargetAssemblyTypeName: Canon, Assembly-CSharp
+        m_MethodName: FireFromInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 720ec216-2fb5-4aed-a709-66bc6dfdc27a
     m_ActionName: 'Player/Fire[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
@@ -185,6 +198,19 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3738900463384635540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693165292687564564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fadc67c8a804524851e31415ec59b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Canon
+  projectilePrefab: {fileID: 6179124278649085069, guid: cd0aa9908eaa54b94af4b3531a4c2c44, type: 3}
 --- !u!1 &2038875107011252052
 GameObject:
   m_ObjectHideFlags: 0
