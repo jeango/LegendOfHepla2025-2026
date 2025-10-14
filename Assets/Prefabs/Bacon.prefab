@@ -126,5 +126,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 729a7fbf194ee43208823d4f8ea700b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
-  movementDirection: {x: 1, y: 0, z: 0}
+  movementDirection: {x: -1, y: 0, z: 0}
   speed: 3

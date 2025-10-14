@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3604201488234325807}
   - component: {fileID: 4857142201069482554}
   - component: {fileID: 7587521012521829744}
+  - component: {fileID: 7212000752867817760}
   m_Layer: 0
   m_Name: Fire_Circle
   m_TagString: Untagged
@@ -113,3 +114,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7212000752867817760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425487116139270375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729a7fbf194ee43208823d4f8ea700b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementController
+  movementDirection: {x: 1, y: 0, z: 0}
+  speed: 20
