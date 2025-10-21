@@ -13,11 +13,6 @@ public class EnemySpawner : MonoBehaviour
         InvokeRepeating(nameof(Spawn), spawnInterval, spawnInterval);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void Spawn()
     {
         float randomY = Random.Range(minYPosition, maxYPosition);
