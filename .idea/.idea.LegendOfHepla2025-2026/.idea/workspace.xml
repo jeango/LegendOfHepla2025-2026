@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e281d308-1ce1-4892-a6e9-d0b192c5484b" name="Changes" comment="" />
+    <list default="true" id="e281d308-1ce1-4892-a6e9-d0b192c5484b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendOfHepla2025-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendOfHepla2025-2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LegendOfHepla/Art/Animations/fire_circle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LegendOfHepla/Art/Animations/fire_circle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LegendOfHepla/Art/Sprites/objects.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LegendOfHepla/Art/Sprites/objects.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Loggan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Loggan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zynk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Zynk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/fire-circle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/fire-circle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lightning_example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lightning_example.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -83,6 +95,7 @@
       <updated>1759838290828</updated>
       <workItem from="1759838291913" duration="2671000" />
       <workItem from="1759844659655" duration="4347000" />
+      <workItem from="1761288361355" duration="4477000" />
     </task>
     <servers />
   </component>
