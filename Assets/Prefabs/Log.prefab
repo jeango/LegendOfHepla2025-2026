@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -6457386710923275188, guid: 654c2d32aad3f488a8790beba7098112, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.9375, y: 1.625}
@@ -126,5 +126,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0afe9015840e4548a54b3264875985c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
-  movementDirection: {x: 1, y: 0, z: 0}
+  movementDirection: {x: -1, y: 0, z: 0}
   speed: 3

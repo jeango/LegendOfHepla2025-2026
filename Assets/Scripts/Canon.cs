@@ -1,18 +1,22 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Canon : MonoBehaviour
 {
     public GameObject projectilePrefab;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Fire()
     {
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FireOnInput(InputAction.CallbackContext context)
     {
-        
+        if (context.started)
+        {
+            Fire();
+        }
     }
+
+
 }
