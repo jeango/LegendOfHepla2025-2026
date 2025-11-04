@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 3738900463384635540}
   - component: {fileID: 3815930693354074234}
   - component: {fileID: 2278831222175488535}
-  m_Layer: 0
+  - component: {fileID: 2217337268425105808}
+  m_Layer: 6
   m_Name: Zynk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,6 +278,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.06694865, y: 0.50807554}
   m_Size: {x: 0.8263068, y: 1.3911511}
   m_Direction: 0
+--- !u!114 &2217337268425105808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693165292687564564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d861fdee3ff4b198a661b32e9daaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damageable
 --- !u!1 &2038875107011252052
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3723876495977874142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5182667207250302092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8685374722694906338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3835433792647027170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

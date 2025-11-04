@@ -10,6 +10,9 @@ public class Damage : MonoBehaviour
 
     void DealDamage(GameObject target)
     {
-        Destroy(target);        
+        if (target.GetComponent<Damageable>())
+        {
+            Destroy(target);    
+        }
     }
 }
