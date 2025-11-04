@@ -11,7 +11,10 @@ public class Damage : MonoBehaviour
 
     void DealDamage(GameObject target)
     {
-        Destroy(target);
+        if (target.tag == "Damageabel" || target.GetComponent<Damageable>())
+        {
+            Destroy(target);
+        }
     }
     
 }
