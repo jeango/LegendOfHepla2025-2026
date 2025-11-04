@@ -4,6 +4,11 @@ public class Damage : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collider)
     {
-        print(collider.gameObject.name);
+        ApplyDamage(collider.gameObject);
+    }
+
+    void ApplyDamage(GameObject target)
+    {
+        Destroy(target);
     }
 }
