@@ -6,6 +6,8 @@ public class EnemySpawner : MonoBehaviour
     public GameObject enemyPrefab;
     public float firstSpawnDelay;
     public float spawnInterval;
+    public float minYSpawnPosition;
+    public float maxYSpawnPosition;
 
     // Update is called once per frame
     void OnEnable()
@@ -20,6 +22,8 @@ public class EnemySpawner : MonoBehaviour
     
     void Spawn()
     {
-        Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+        float randomY = Random.Range(minYSpawnPosition, maxYSpawnPosition);
+        Vector3 spawnPosition = new Vector3(transform.position.x, randomY);
+        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
     }
 }
