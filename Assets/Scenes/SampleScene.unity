@@ -176,24 +176,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ea8f165e03d34d549a6b01fa4b27a30, type: 3}
---- !u!1 &491186813 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1168093665553438821, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-  m_PrefabInstance: {fileID: 7134670821520948064}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &491186819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491186813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fadc67c8a804524851e31415ec59b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Canon
-  projectilePrefab: {fileID: 7439782618166533243, guid: cd0aa9908eaa54b94af4b3531a4c2c44, type: 3}
 --- !u!1 &881120624
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,41 +414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zynk
       objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 491186819}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: FireOnInput
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Canon, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312205906971256822, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1168093665553438821, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 491186819}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22551d5716b754315a8cb1ec8374157d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

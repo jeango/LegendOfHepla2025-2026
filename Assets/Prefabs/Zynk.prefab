@@ -13,9 +13,12 @@ GameObject:
   - component: {fileID: 2570201983947350683}
   - component: {fileID: 8416929992325270475}
   - component: {fileID: 5312205906971256822}
-  m_Layer: 0
+  - component: {fileID: 4723145597132094987}
+  - component: {fileID: -8294400181876019315}
+  - component: {fileID: 7233053920094149880}
+  m_Layer: 6
   m_Name: Zynk
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,7 +180,19 @@ MonoBehaviour:
     m_ActionId: 56d2111a-a884-4c31-8870-82afbfa5be39
     m_ActionName: 'Player/Look[/Mouse/delta,/Pen/delta]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7233053920094149880}
+        m_TargetAssemblyTypeName: Canon, Assembly-CSharp
+        m_MethodName: FireOnInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: dd5fec74-41d5-470f-94d5-9c33be91fe2b
     m_ActionName: 'Player/Fire[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
@@ -185,6 +200,83 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!50 &4723145597132094987
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168093665553438821}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &-8294400181876019315
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168093665553438821}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.03981805, y: 0.45161366}
+  m_Size: {x: 0.6585593, y: 1.2782273}
+  m_Direction: 0
+--- !u!114 &7233053920094149880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168093665553438821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fadc67c8a804524851e31415ec59b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Canon
+  projectilePrefab: {fileID: 7439782618166533243, guid: cd0aa9908eaa54b94af4b3531a4c2c44, type: 3}
 --- !u!1 &1775276862966309939
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2769383814905426594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996473169342311136}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rhand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
