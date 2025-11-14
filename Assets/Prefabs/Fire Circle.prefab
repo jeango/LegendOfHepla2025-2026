@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: -7909223445099303568}
   - component: {fileID: 4113564201592360849}
   - component: {fileID: 2953505070030582195}
+  - component: {fileID: -8303443588699851319}
   m_Layer: 6
   m_Name: Fire Circle
-  m_TagString: Damageable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -206,3 +207,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321df4b706e2f4fd2ac454fded434b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
+--- !u!114 &-8303443588699851319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439782618166533243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca62182173a34bfd977c68dd1373051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damageable

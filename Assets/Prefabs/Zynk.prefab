@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 4723145597132094987}
   - component: {fileID: -8294400181876019315}
   - component: {fileID: 7233053920094149880}
+  - component: {fileID: -6278615078855648571}
   m_Layer: 6
   m_Name: Zynk
-  m_TagString: Damageable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,6 +278,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Canon
   projectilePrefab: {fileID: 7439782618166533243, guid: cd0aa9908eaa54b94af4b3531a4c2c44, type: 3}
+--- !u!114 &-6278615078855648571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168093665553438821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca62182173a34bfd977c68dd1373051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damageable
 --- !u!1 &1775276862966309939
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: -3249524380704540279}
   - component: {fileID: -6333812002647044551}
   - component: {fileID: -3080647785761823353}
+  - component: {fileID: 8014777092252119354}
   m_Layer: 7
   m_Name: Log
-  m_TagString: Damageable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,3 +208,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321df4b706e2f4fd2ac454fded434b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
+--- !u!114 &8014777092252119354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9060294190020870918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca62182173a34bfd977c68dd1373051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damageable
