@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &130727819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,11 +389,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &708734006 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5996278961324657281, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
-  m_PrefabInstance: {fileID: 1797409740}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1081939123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,22 +744,6 @@ PrefabInstance:
     - target: {fileID: 3113941930234613973, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
       propertyPath: m_Name
       value: Zynk
-      objectReference: {fileID: 0}
-    - target: {fileID: 5103452159720335784, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
-      propertyPath: body
-      value: 
-      objectReference: {fileID: 708734006}
-    - target: {fileID: 5996278961324657281, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996278961324657281, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6506151740947050372, guid: b03524cac3c274f299f0beb5640d1dd5, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
