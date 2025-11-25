@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c69fcd68-7892-4eb5-9e8e-56d7e4867345" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendOfHepla2025-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendOfHepla2025-2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
       <updated>1759818732762</updated>
       <workItem from="1759818734663" duration="4130000" />
       <workItem from="1761035950741" duration="4002000" />
+      <workItem from="1764069583655" duration="879000" />
     </task>
     <servers />
   </component>
