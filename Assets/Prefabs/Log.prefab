@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6714637437791234003}
   - component: {fileID: 5282792667130218486}
   - component: {fileID: -4479085377508278137}
+  - component: {fileID: 7091545639991359543}
   m_Layer: 7
   m_Name: Log
   m_TagString: Damageable
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
   movementDirection: {x: -1, y: 0, z: 0}
   movementSpeed: 3
+  body: {fileID: 0}
 --- !u!50 &9030402623790673577
 Rigidbody2D:
   serializedVersion: 5
@@ -220,3 +222,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d861fdee3ff4b198a661b32e9daaaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+--- !u!114 &7091545639991359543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465416965817837159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b411c95db1c74669a0d4aedd7925369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Score
+  score: 10

@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Windows_4
+      name: info_panel
       rect:
         serializedVersion: 2
         x: 3578
@@ -359,7 +359,7 @@ TextureImporter:
         height: 165
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 41, y: 39, z: 41, w: 39}
       customData: 
       outline: []
       physicsShape: []
@@ -1517,7 +1517,6 @@ TextureImporter:
       Windows_37: -5413046417812492632
       Windows_38: -534036128405053622
       Windows_39: -3137716278263304016
-      Windows_4: -4853824523064533287
       Windows_40: -5616113843002912617
       Windows_41: -9082749012352545364
       Windows_42: 7630508787456814367
@@ -1539,6 +1538,7 @@ TextureImporter:
       Windows_8: -4184484094318694091
       Windows_9: 3016992840622293049
       buttons_frame: -6677279742194608663
+      info_panel: -4853824523064533287
       title_banner: -7500360871514107123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
