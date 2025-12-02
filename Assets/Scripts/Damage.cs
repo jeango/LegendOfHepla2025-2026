@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
+    public bool canScore;
     
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -12,6 +13,11 @@ public class Damage : MonoBehaviour
     {
         if (target.GetComponent<Damageable>())
         {
+            if (canScore)
+            {
+                ScoreGain gain = target.GetComponent<ScoreGain>();
+                gain?.Gain();
+            }
             Destroy(target);    
         }
     }

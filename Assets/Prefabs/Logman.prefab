@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2960409209926338291}
   - component: {fileID: 5643041761345249976}
   - component: {fileID: -8106010729351292513}
+  - component: {fileID: -82454351867952253}
   m_Layer: 7
   m_Name: Logman
   m_TagString: Untagged
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
   movementDirection: {x: -1, y: 0, z: 0}
   movementSpeed: 3
+  body: {fileID: 0}
 --- !u!70 &7520920031614361315
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -220,3 +222,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d861fdee3ff4b198a661b32e9daaaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+--- !u!114 &-82454351867952253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060154394486801333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5636774cf3abf499d94ae7439d27f7e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreGain
+  scoreValue: 10
