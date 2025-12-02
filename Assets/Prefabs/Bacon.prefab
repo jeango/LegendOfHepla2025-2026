@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7991945793058989575}
   - component: {fileID: 8016393663769347230}
   - component: {fileID: -9157646546560315217}
+  - component: {fileID: 2788453166213345482}
   m_Layer: 7
   m_Name: Bacon
   m_TagString: Untagged
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
   movementDirection: {x: -1, y: 0, z: 0}
   speed: 3
+  body: {fileID: 0}
 --- !u!70 &7296014939036053966
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -220,3 +222,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d861fdee3ff4b198a661b32e9daaaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+--- !u!114 &2788453166213345482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122713602777133898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5636774cf3abf499d94ae7439d27f7e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreGain
+  score: 10
