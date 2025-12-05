@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321df4b706e2f4fd2ac454fded434b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
+  destroyImmediately: 1
 --- !u!61 &3734394603349528109
 BoxCollider2D:
   m_ObjectHideFlags: 0
