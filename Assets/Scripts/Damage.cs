@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    //Ajouter détection de tags pour les cleaners
+    public bool destroyImmediately;
     
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -11,9 +11,15 @@ public class Damage : MonoBehaviour
 
     void DealDamage(GameObject target)
     {
-        if (target.tag == "Damageabel" || target.GetComponent<Damageable>())
+        if (destroyImmediately)
         {
             Destroy(target);
+            return;
+        }
+        Damageable damageableComponent = target.GetComponent<Damageable>();
+        if (damageableComponent != null)
+        {
+            damageableComponent.TakeDamage();
         }
     }
     

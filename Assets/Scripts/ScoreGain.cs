@@ -4,9 +4,12 @@ public class ScoreGain : MonoBehaviour
 {
     public int score;
     
-    private void OnDestroy()
+    public void GainScore()
     {
         GameManager.score += score;
-        print ("Score: " + GameManager.score);
+        if (GameManager.score > GameManager.highscore)
+        {
+            GameManager.highscore = GameManager.score;
+        }
     }
 }
