@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
+    public bool destroyImmediately;
+    
     void OnTriggerEnter2D(Collider2D collider)
     {
         ApplyDamage(collider.gameObject);
@@ -9,10 +11,16 @@ public class Damage : MonoBehaviour
 
     void ApplyDamage(GameObject target)
     {
-        
-        if(target.tag == "Damageable" || target.GetComponent<Damageable>())
+        if (destroyImmediately)
         {
             Destroy(target);
+            return;
+        }
+        Damageable damageableTarget = target.GetComponent<Damageable>();
+        if(damageableTarget != null)
+        {
+            damageableTarget.TakeDamage();
+            return;
         }
     }
 }
