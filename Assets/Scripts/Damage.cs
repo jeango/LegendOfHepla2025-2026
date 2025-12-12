@@ -12,7 +12,11 @@ public class Damage : MonoBehaviour
     void DealDamage(GameObject target)
     {
         Damageable damageable = target.GetComponent<Damageable>();
-        if (destroyImmediately == false && damageable != null)
+        if (damageable == null)
+        {
+            return;
+        }
+        if (destroyImmediately == false)
         {
             damageable.TakeDamage();
             return;

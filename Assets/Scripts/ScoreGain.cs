@@ -7,5 +7,9 @@ public class ScoreGain : MonoBehaviour
     public void GainScore()
     {
         GameManager.Score += scoreValue;
+        if (GameManager.Score > GameManager.HighScore)
+        {
+            GameManager.HighScore = GameManager.Score;
+        }
     }
 }
