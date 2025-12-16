@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: HEPL
   productName: Legend of HEPLA 115-119
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -292,7 +292,10 @@ PlayerSettings:
   androidSymbolsSizeThreshold: 800
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -678,10 +681,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: db6339ab-7126-4990-bc9b-46ccd2c69a18
+  cloudProjectId: d22cd0e4-e9f4-45d3-96f0-b4f571b19a1b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Legend of HEPLA 115-119
+  projectName: Legend of Hepla - 101-104
   organizationId: hepl_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

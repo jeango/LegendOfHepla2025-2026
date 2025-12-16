@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0c9cc9fb1af4fd483db2a9639e42bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
+  destroyImmediately: 0
 --- !u!114 &-4479085377508278137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d861fdee3ff4b198a661b32e9daaaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+  explosionPrefab: {fileID: 6247858485303550117, guid: d111dc4d3346f498ca8be2e3fb904911, type: 3}
 --- !u!114 &7091545639991359543
 MonoBehaviour:
   m_ObjectHideFlags: 0
