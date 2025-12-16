@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public bool canScore;
+    public bool destroyImmediately;
     
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -11,14 +11,15 @@ public class Damage : MonoBehaviour
 
     void DealDamage(GameObject target)
     {
-        if (target.GetComponent<Damageable>())
+        Damageable damageableReference = target.GetComponent<Damageable>();
+        if (damageableReference != null)
         {
-            if (canScore)
+            if (destroyImmediately)
             {
-                ScoreGain gain = target.GetComponent<ScoreGain>();
-                gain?.Gain();
+                Destroy(target);
+                return;
             }
-            Destroy(target);    
+            damageableReference.TakeDamage();
         }
     }
 }
