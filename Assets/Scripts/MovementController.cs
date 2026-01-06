@@ -3,22 +3,21 @@ using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
-    public Vector3 movementDirection;
+    public Vector2 direction;
     public float speed;
 
-    // Update is called once per frame
     void Update()
     {
-        Move(movementDirection);
+        Move(direction);
     }
-
-    void Move(Vector3 direction)
+    
+    void Move(Vector3 movementDirection)
     {
-        transform.position += direction.normalized * (Time.deltaTime * speed);
+        transform.position += movementDirection.normalized * (speed * Time.deltaTime);
     }
 
     public void SetDirectionFromInput(InputAction.CallbackContext context)
     {
-        movementDirection = context.ReadValue<Vector2>();
+        direction = context.ReadValue<Vector2>();
     }
 }
