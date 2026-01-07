@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1281255145843229213}
   - component: {fileID: 7877456315964662445}
   - component: {fileID: 959114934394879543}
+  - component: {fileID: 8063369510003999398}
   m_Layer: 7
   m_Name: Log
   m_TagString: Untagged
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
   direction: {x: -10, y: 0}
   speed: 3
+  body: {fileID: 0}
 --- !u!50 &-4291172409165673713
 Rigidbody2D:
   serializedVersion: 5
@@ -208,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a157a6e7ddc3476bb80280c6406426b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
+  destroyTargetImmediately: 0
 --- !u!114 &959114934394879543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,3 +223,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a334b0dd0fd1347e2afb5036d2e4c5c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
+  explosionPrefab: {fileID: 9123370811005966405, guid: cc7652fd25b27411fa663c2e5706aa23, type: 3}
+--- !u!114 &8063369510003999398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490924509011621891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f236bbd42b124317a05c50a22c80b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Score
+  value: 10
